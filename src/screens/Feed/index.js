@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {
   View, SafeAreaView, Text,
   StyleSheet, StatusBar, FlatList,
-  Image, TouchableHighlight
+  Image, TouchableHighlight, TextInput
 } from 'react-native';
 import api from '../../assets/api';
 
@@ -21,16 +21,17 @@ const Feed = ({ navigation }) => {
  */
   // criar um estado para armazenar os projetos da aplicação
   const [burguerName, setBurguer] = useState([]);
+  //const [search, setSearch] = useState("");
 
   useEffect(() => {
     api.get('burguerName').then(response => {     
-      setBurguer(response.data);
+      setBurguer(response.data.burguers);
     });
   }, []);
 
   console.log("TESTE: burguers");
-  //console.log(burguerName);
-
+  console.log(burguerName);
+  
   
   return (
     /**
@@ -41,6 +42,12 @@ const Feed = ({ navigation }) => {
     <>
       <StatusBar barStyle="dark-content" backgroundColor="#FFF" />  
       <SafeAreaView style={styles.container}>
+        {/* <TextInput style={{backgroundColor: "#e8e6e1", borderRadius: 20, shadowColor: "#000000", shadowOpacity: 0.8,}} 
+          placeholder="search..."
+          underlineColorAndroid="transparent"
+          onChangeText={(text) => searchFilter(text)}
+        /> */}
+
         <FlatList
           data={burguerName}
           keyExtractor={burguer => burguer.id}

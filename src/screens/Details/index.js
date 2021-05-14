@@ -10,16 +10,7 @@ const Details = ({ navigation, route }) => {
 
   return (
 
-    // <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-    //   <Image source={{uri: burguer.image}} style={styles.photo}> </Image>
-    //   <Text>
-    //     Nome: {burguer.name}
-    //   </Text>
-
-    //   <Text>
-    //     {/* Ingredientes: {burguer.detail.ingredients} */}
-    //   </Text>
-    // </View>
+ 
     <>
       <SafeAreaView backgroundColor="#FFF">
         <ScrollView>
