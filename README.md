@@ -12,7 +12,7 @@ campus Vitória da Conquista, ministrada pelo professor Luis Paulo da Silva Carv
 os detalhando e mostrando comentários sobre cada produto.</h3>
 
 <h1>✅ Comandos para execução</h1>
-<h3> # yarn react-native start</h3>
-<h3> # yarn react-native run android </h3>
-<h3> # npx json-server --watch burguerName.json </h3>
-<h3> # adb reverse tcp:3000 tcp:3000 </h3>
+<h3> # docker-compose up (dentro do diretorio services) </h3>
+<h3> # yarn react-native start </h3>
+<h3> # yarn react-native run-android </h3>
+<h3> # adb reverse tcp:5000 tcp:5000 </h3>
