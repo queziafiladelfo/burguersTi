@@ -10,6 +10,9 @@
 campus Vitória da Conquista, ministrada pelo professor Luis Paulo da Silva Carvalho.</h3>
 <h3>Descrição: Trata-se de um aplicativo cujo objetivo é listar todos os produtos vendidos em uma hamburgueria, 
 os detalhando e mostrando comentários sobre cada produto.</h3>
+<h3>Front-end: React-Native</h3>
+<h3>Back-end: Python, Flask, Docker</h3>
+
 
 <h1>✅ Comandos para execução</h1>
 <h3> # docker-compose up (dentro do diretorio services) </h3>
