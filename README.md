@@ -1,4 +1,4 @@
-<img src="https://github.com/queziafiladelfo/Burguers-Ti/blob/main/pj.png" >
+<img src="https://github.com/queziafiladelfo/burguersTi/blob/master/pj.png" >
 <h1>✅ Status do Projeto</h1>
 <h3 align="center"> 
 	🚧  Projeto 🚀 Em construção...  🚧
