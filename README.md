@@ -1,3 +1,7 @@
+[!Video DEMO do projeto](https://youtu.be/hiDtToxeY5o)
+
+#
+
 <img src="https://github.com/queziafiladelfo/burguersTi/blob/master/pj.png" >
 <h1>✅ Status do Projeto</h1>
 <h3 align="center"> 
@@ -11,7 +15,7 @@ campus Vitória da Conquista, ministrada pelo professor Luis Paulo da Silva Carv
 <h3>Descrição: Trata-se de um aplicativo cujo objetivo é listar todos os produtos vendidos em uma hamburgueria, 
 os detalhando e mostrando comentários sobre cada produto.</h3>
 <h3>Front-end: React-Native</h3>
-<h3>Back-end: Python, Flask, Docker, MongoDB</h3>
+<h3>Back-end: Python, Flask, Docker, Docker Compose, MongoDB</h3>
 
 
 <h1>✅ Comandos para execução</h1>
